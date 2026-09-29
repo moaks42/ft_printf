@@ -30,6 +30,8 @@ static int	ft_specifier(char specifier, va_list args)
 		return (ft_unsigned_hex(va_arg(args, int), "0123456789", 10));
 	else if (specifier == 'p')
 		return (ft_pointer(va_arg(args, void *)));
+	else if (specifier == 'f')
+		return (ft_double(va_arg(args, double)));
 	return (0);
 }
 
