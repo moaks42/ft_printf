@@ -26,5 +26,6 @@ int		ft_printf(const char *format, ...);
 int		ft_puthex(unsigned long long int i, char *digit, size_t base);
 int		ft_pointer(void *pointer);
 int		ft_unsigned_hex(unsigned int i, char *digit, size_t base);
+int	  ft_double(double n);
 
 #endif
