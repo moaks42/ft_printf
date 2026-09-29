@@ -25,6 +25,7 @@ conversions defined by the subject:
 | `%x`       | Prints a number in hexadecimal (lowercase)      |
 | `%X`       | Prints a number in hexadecimal (uppercase)      |
 | `%%`       | Prints a literal `%`                            |
+| `%f`       | Prints a double, float                           |
 
 Flags, field width, and precision (the bonus part of the subject) are not
 implemented in this version - only the mandatory conversions listed above are
